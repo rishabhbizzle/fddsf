@@ -28,7 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <p>{import.meta.env.VITE_TEST}</p>
+      <p>Env Variable: {import.meta.env.VITE_TEST}</p>
     </>
   )
 }
